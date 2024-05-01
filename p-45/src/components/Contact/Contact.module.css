@@ -1,0 +1,184 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
+} 
+.top{ 
+          /* overflow-x:hidden;
+          overflow-y:auto; */
+          height: auto;
+          /* margin-left:50px;
+          margin-right: 50px; */
+          margin-top: 20px;
+} 
+.prap{
+    font-size: larger;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: bold;
+} 
+/* Navigation bar styling*/
+
+.nav.menu {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    gap: 85px;
+    background-color: hwb(135 6% 73% / 0.812);
+    height: 50px;
+    align-items: center;
+    
+  }
+  
+  .nav.menu li {
+    display: inline-block;
+    margin-right: 20px;
+    
+  }
+  
+  .nav.menu a {
+    color:white;
+    text-decoration: wavy;
+    font-weight: 500;
+    font-size:medium;
+  }
+  
+  /* Active item styling */
+  .nav.menu a.active {
+    background-color: #008000; /* Green background color */
+    color: #fff; /* White text color */
+  }
+  
+    .mod-list{ 
+        display: flex;
+        gap: 20px;
+        list-style-type:none;
+        cursor: pointer;
+        margin-top:15px ;
+        margin-bottom:30px ;
+        color: black;
+        font-size: medium;
+
+}
+.mod-list li:hover{
+        font-weight: bold;
+        transition: 1s;
+        color: white;
+                  
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 3, 18);
+    /* border: rgba(23, 174, 201, 0.692) 1px; */
+    /* border-radius:1px; */
+    /* padding: 1px; */
+    /* background-color: rgba(27, 213, 230, 0.863); */
+    padding: 3px;
+
+
+            
+}
+.top{
+      display: flex;
+      justify-content:space-between;
+}
+.btn-group{
+             margin-top:6px;
+             padding: 10px;
+             row-gap: 100px;    
+}
+/* .btn{
+    background-color: #008000;
+    height: 20px;
+    color: white;
+} */
+/* yaha tak top and navigation bar hai */
+.main{
+    background-image: url('../static/wheat.jpg');
+}
+
+.container {
+    
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    margin-top: 80px;
+    align-items: center;
+    margin-left: 8.5%;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+form {
+    margin-top: 20px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+    font-weight: bold;
+}
+textarea {
+    height: 150px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.contact-text{
+    margin-top: 20px;
+    line-height: 20px;
+    margin-left: 180px;
+    color: black;
+    font-weight: bold;
+}
+.contact-info{
+    margin-top: 10px;
+    line-height: 20px;
+    margin-left: 180px;
+}
+.line{
+    margin-top: 50px;
+    font-weight: bold;
+    color: #063908;
+}
+
+@media (max-width: 767px) {
+    /* Adjust styles for smaller screens */
+    .wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .mod-list {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .mod-list li {
+        text-align: center;
+    }
+    
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,298 @@
+* { 
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
+} 
+.top{ 
+          /* overflow-x:hidden;
+          overflow-y:auto; */
+          height: auto;
+          /* margin-left:50px;
+          margin-right: 50px; */
+          margin-top: 20px;
+          /* background-color: antiquewhite; */
+} 
+.prap{
+    font-size: larger;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: bold;
+} 
+/* Navigation bar styling*/
+
+.nav .menu {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    gap: 85px;
+    background-color: hwb(135 6% 73% / 0.812);
+    height: 50px;
+    align-items: center;
+    
+  }
+  
+  .nav .menu li {
+    display: inline-block;
+    margin-right: 20px;
+    
+  }
+  
+  .nav .menu a {
+    color:white;
+    text-decoration: wavy;
+    font-weight: 500;
+    font-size:medium;
+  }
+  
+  /* Active item styling */
+  .nav .menu a .active {
+    background-color: #008000; /* Green background color */
+    color: #fff; /* White text color */
+  }
+  
+    .menu{ 
+        display: flex;
+        gap: 20px;
+        list-style-type:none;
+        cursor: pointer;
+        margin-top:15px ;
+        margin-bottom:30px ;
+        color: black;
+        font-size: medium;
+
+}
+.menu li :hover{
+        font-weight: bold;
+        transition: 1s;
+        color: white;
+                  
+}
+a {
+    text-decoration: none;
+    color: rgb(1, 3, 18);
+    /* border: rgba(23, 174, 201, 0.692) 1px; */
+    /* border-radius:1px; */
+    /* padding: 1px; */
+    /* background-color: rgba(27, 213, 230, 0.863); */
+    padding: 3px;
+
+
+            
+}
+.top {
+      display: flex;
+      justify-content:space-between;
+}
+.btn-group{
+             margin-top:6px;
+             padding: 10px;
+             row-gap: 100px;    
+}
+.imagebb{
+    position: relative;
+    width: 100%;
+}
+.imageb{
+          width: 1130px;
+          display: block;
+          width: 100%;
+
+}
+
+ .parap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5%, -50%);
+    /* background-color: rgba(255, 255, 255, 0.7); background color with opacity */
+    /* padding: 20px; */
+    color: aliceblue;
+    border-radius: 10px;
+    /* text-align: left; */
+    /* max-width: 80%; */
+    /* z-index: 1;  */
+  font-weight:bolder;
+  font-size: medium;
+  /* margin: 0 auto;
+  border-radius: 30px;
+  padding: 35px;
+  font-size: 1.6rem;
+  margin-bottom: 20px;*/
+  text-align: justify;
+  /* text-align:center; */
+  line-height: 20px;
+}
+.h2h{
+       position: absolute; 
+       top: 50%;
+    left: 5%;
+    font-weight:bolder;
+    font-size:x-large;
+    color:white;
+    text-shadow: blanchedalmond;
+    }
+.endd{
+       margin-top: 30px;
+       width: 100%;
+       /* background-image: url('/static/farmer\ buy.jpg'); */
+}
+.enddimage{
+    width: 1130px;
+    display: block;
+    margin-bottom:20px;
+    width: 100%;
+     height: 500px;
+     background-image: url('/static/farmer\ buy.jpg');  
+
+             
+}
+.h44{
+      text-align: justify;
+      margin-bottom: 5px;
+      line-height: 20px;
+      font-size: larger;
+
+}
+.pp{
+    text-align: justify;
+    margin-bottom: 5px;
+    line-height: 20px;
+    font-size: large;
+    font-weight: 500;
+
+    
+}
+.ppp{
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-size: large;
+    font-weight: 500;
+}
+.footer{
+             display: flex;
+             justify-content: space-between;
+}
+@media (max-width: 767px) {
+    /* Adjust styles for smaller screens */
+    .wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .mod-list {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .mod-list li {
+        text-align: center;
+    }
+    
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-group {
+        margin-top: 10px;
+    }
+    
+    .parap {
+        font-size: small;
+        max-width: 90%;
+    }
+    
+    .h2h {
+        font-size: large;
+    }
+    
+    .enddimage {
+        width: 100%;
+    }
+    .imagebbzs{
+        width: 100%;
+
+    }
+}
+.pp{
+    /* font-weight: bold; */
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    background-color: hwb(135 6% 73% / 0.812);
+    position: relative;
+   
+}
+.hyperlink{ 
+         display: flex;
+         width: 50%;
+         gap: 120px;
+         padding: 4rem;
+         margin-top: -1px;
+
+}
+.hyperlink div a{ 
+               text-decoration: none;
+               color: white;
+               font-size: 20px;
+               /* font-weight: bold; */
+               transition: all 0.5s;
+}
+.hyperlink div a:hover{ 
+                     color: rgb(245, 143, 11);
+       }
+
+.iconss{ 
+width: 50%;
+gap: 20px;
+padding: 4rem;
+margin-top: -1px;
+cursor: pointer;
+display: flex;
+gap:6rem;
+}
+.icons1{ 
+      font-size:1.5rem;
+      
+}
+
+.head1{
+user-select: none;
+position: absolute;
+font-size: 3em;
+bottom:0;
+left:0;
+color: rgba(231, 231, 231, 0.831);
+}
+.footerwraper{
+margin-top: 15px;
+display: flex;
+justify-content: space-between;
+/* margin: 1rem; */
+/* text-align: center; */
+padding: 1rem;
+gap: 0.8rem;
+}
+@media screen and (max-width: 768px) {
+    .footer {
+      height: auto; /* Adjust height as needed for smaller screens */
+    }
+  
+    .hyperlink,
+    .iconss {
+      width: 100%; /* Make both hyperlink and icon containers full width on smaller screens */
+      padding: 2rem; /* Adjust padding for smaller screens */
+      gap: 10px; /* Adjust the gap between elements for smaller screens */
+    }
+  
+    .icons1 {
+      font-size: 1.2rem; /* Adjust icon size for smaller screens */
+    }
+  
+    .head1 {
+      font-size: 2em; /* Adjust heading size for smaller screens */
+    }
+  }
+  
